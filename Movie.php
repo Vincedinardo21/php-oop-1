@@ -23,7 +23,7 @@ class Movie{
 
     public function setAge(){
         if($this->limite_eta >= 18){
-            $this->sconto = "Attenzione, film soggetto a limiti di età";
+            $this->warning = "Attenzione, film soggetto a limiti di età";
         }
     }
 }
