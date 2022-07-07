@@ -17,6 +17,8 @@ class Movie{
         $this->durata = $length;
         $this->lingua = $language;
         $this->limite_eta = $age;
+
+        $this->setAge();
     }
 
     public function setAge(){

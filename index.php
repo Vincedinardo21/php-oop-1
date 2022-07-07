@@ -4,9 +4,6 @@ include __DIR__ . "/Movie.php";
 $rambo = new Movie("Rambo", "Azione", 1982, 93, "ENG", 14);
 $arancia = new Movie("Arancia Meccanica", "Drammatico", 1971, 136, "ENG", 18);
 
-$rambo->setAge();
-$arancia->setAge();
-
 var_dump($rambo);
 var_dump($arancia);
 ?>
